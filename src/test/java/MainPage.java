@@ -14,11 +14,11 @@ public class MainPage {
     }
 
     public void catalogClick() {
-        driver.findElement(By.id("catalogPopupButton")).click();
+        driver.findElement(By.xpath("//button[@id='catalogPopupButton']")).click();
     }
 
     public void computersClick() {
-        driver.findElements(By.className("_191Hm")).get(3).click();
+        driver.findElement(By.xpath("//*[@id=\"catalogPopup\"]/div/div/div/div/div/div/div[1]/ul/li[4]/a")).click();
     }
 
 }

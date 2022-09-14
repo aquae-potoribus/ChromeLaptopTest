@@ -9,6 +9,6 @@ public class ComputerPage {
     }
 
     public void laptopClick() {
-        driver.findElements(By.cssSelector("a[class='egKyN _2oLyz _9qbcy']")).get(0).click();
+        driver.findElement(By.xpath("/html/body/div[4]/div[2]/div/div/div[2]/div/div[2]/div/div/div/div[1]/div/div/div/div/div/div/div[1]/div[2]/ul/li[1]/div/a")).click();
     }
 }
