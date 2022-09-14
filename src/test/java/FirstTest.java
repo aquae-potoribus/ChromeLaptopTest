@@ -20,7 +20,6 @@ public class FirstTest {
         LaptopsPage laptopsPage = new LaptopsPage(driver);
 
         mainPage.openMainPage();
-        Thread.sleep(7000);
         waitSec();
         mainPage.catalogClick();
         waitSec();
